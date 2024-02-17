@@ -1,0 +1,79 @@
+.btn2{
+		position: relative;
+	transform: translate(180%,-500%);
+	width: 100px;
+	height: 35px;
+	color: white;
+	background-color: transparent;
+	transition: 0.1s;
+	border: 1px white solid;
+	}
+.btn2:hover{
+background: linear-gradient(to right,#DDA0DD,#D8BFD8);
+color: black;
+}
+.btn1{
+	position: relative;
+	top: 30px;
+	width: 100px;
+	height: 35px;
+	border-radius: 20px;
+	background-color: white;
+	transition: 0.1s;
+}
+.btn1:hover{
+	transform: scale(1.1);
+}
+  .in1{
+  	width: 80%;
+  	height: 30px;
+  	position: relative;
+  	top: 20px;
+  	margin-bottom: 20px;
+  	border-radius: 10px;
+  	border:none;
+  	box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  }
+	.login{
+		position: flex;
+		flex-wrap: wrap;
+		top: 0;
+		transform: translate(50%,40%);
+		background:linear-gradient(to right,#FF00FF,#EE82EE);
+		height: 400px;
+		width: 50%;
+box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+	}
+
+	.div1{
+		width: 50%;
+		height: 350px;
+		background-color: white;
+		position: relative;
+		left: 20px;
+		top: 20px;
+		border-radius: 10px;
+	}
+
+	@media(max-width: 600px){
+	.login{
+		position: flex;
+		flex-wrap: wrap;
+		
+		transform: translate(0%,30%);
+		background:linear-gradient(to right,#FF00FF,#EE82EE);
+		height: 400px;
+		width: 540px;
+box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+	}	
+	.btn2{
+		position: relative;
+	transform: translate(150%,-500%);
+	width: 100px;
+	height: 35px;
+	color: white;
+	background-color: transparent;
+	transition: 0.1s;
+	border: 1px white solid;
+	}
+	}
